@@ -8,111 +8,112 @@ Se trata de una placa de desarrollo que integra en un solo módulo varios compon
 
 En la parte posterior dispone de un conector para baterías LiPo de 3,7 V tipo 18650, lo que la hace adecuada para proyectos portátiles.
 El ESP32 es un microcontrolador ampliamente documentado y con soporte en plataformas como Arduino, lo que facilita su programación y uso en proyectos experimentales o de investigación.
-ESP32
 
-•	Microcontrolador ESP32 REV1
+ESP32:
 
-•	WIFI
+    •	Microcontrolador ESP32 REV1
+  
+    •	WIFI
+  
+    •	Bluetooth
+    
+    •	8MB PSRAM
+    
+    •	4MB Flash
+  
+    •	3D antena
 
-•	Bluetooth
+LORA:
 
-•	8MB PSRAM
+    •	Voltaje de funcionamiento: 1,8 ~ 3,7 v
+    
+    •	Corriente aceptable: 10 ~ 14mA
+    
+    •	Corriente de transmisión: 120mA @ + 20dBm
+    
+    •	90mA @ + 17dBm
+    
+    •	29mA @ + 13dBm
+    
+    •	Frecuencia de funcionamiento: Ajustable de 868MHZ a 915MHz
+    
+    •	Potencia de transmisión: + 20dBm
+    
+    •	Sensibilidad de recepción:-139dBm @ LoRa & 62,5 Khz & SF = 12 & 146bps
+    
+    •	-136dBm @ LoRa y 125Khz y SF = 12 y 293bps
+    
+    •	-118dBm @ LoRa y 125Khz y SF = 6 y 9380bps
+    
+    •	-123dBm @ FSK y 5Khz y 1,2 Kbps
+    
+    •	Error de frecuencia: +/-15KHz
+    
+    •	Espacio FIFO: 64 bytes
+    
+    •	Tasa de datos: 1,2 K ~ 300Kbps @ FSK
+    
+    •	0.018K ~ 37,5 Kbps @ LoRa
+    
+    •	Modo de modulación: FSK,GFSK MSK… el sistema GMSK LoRa TM OOK
+    
+    •	Interfaz forma: SPI
+    
+    •	Corriente de sueño: 0.2uA @ Sleep
+    
+    •	1.5uA @ IDLE
+    
+    •	Temperatura de funcionamiento:-40 ℃- + 85 ℃
+    
+    •	Digital RSSI función
+    
+    •	De Frecuencia automático de corrección
+    
+    •	Control automático de ganancia
+    
+    •	Sensor de temperatura y detección de bajo voltaje
+    
+    •	Activación rápida y salto de frecuencia
+    
+    •	Controlador de paquetes de datos altamente configurable
 
-•	4MB Flash
+GPS:
 
-•	3D antena
-
-LORA
-
-•	Voltaje de funcionamiento: 1,8 ~ 3,7 v
-
-•	Corriente aceptable: 10 ~ 14mA
-
-•	Corriente de transmisión: 120mA @ + 20dBm
-
-•	90mA @ + 17dBm
-
-•	29mA @ + 13dBm
-
-•	Frecuencia de funcionamiento: Ajustable de 868MHZ a 915MHz
-
-•	Potencia de transmisión: + 20dBm
-
-•	Sensibilidad de recepción:-139dBm @ LoRa & 62,5 Khz & SF = 12 & 146bps
-
-•	-136dBm @ LoRa y 125Khz y SF = 12 y 293bps
-
-•	-118dBm @ LoRa y 125Khz y SF = 6 y 9380bps
-
-•	-123dBm @ FSK y 5Khz y 1,2 Kbps
-
-•	Error de frecuencia: +/-15KHz
-
-•	Espacio FIFO: 64 bytes
-
-•	Tasa de datos: 1,2 K ~ 300Kbps @ FSK
-
-•	0.018K ~ 37,5 Kbps @ LoRa
-
-•	Modo de modulación: FSK,GFSK MSK… el sistema GMSK LoRa TM OOK
-
-•	Interfaz forma: SPI
-
-•	Corriente de sueño: 0.2uA @ Sleep
-
-•	1.5uA @ IDLE
-
-•	Temperatura de funcionamiento:-40 ℃- + 85 ℃
-
-•	Digital RSSI función
-
-•	De Frecuencia automático de corrección
-
-•	Control automático de ganancia
-
-•	Sensor de temperatura y detección de bajo voltaje
-
-•	Activación rápida y salto de frecuencia
-
-•	Controlador de paquetes de datos altamente configurable
-
-GPS
-
-•	Módulos GPS NEO-6M, fuente de alimentación Universal de 3V-5V
-
-•	Módulo con antena de cerámica, super señal
-
-•	Guardar los datos de parámetros de configuración EEPROM Down
-
-•	Con los datos de copia de seguridad de la batería
-
-•	Hay indicador de señal LED
-
-•	Tasa de baudios predeterminada: 9600
+    •	Módulos GPS NEO-6M, fuente de alimentación Universal de 3V-5V
+    
+    •	Módulo con antena de cerámica, super señal
+    
+    •	Guardar los datos de parámetros de configuración EEPROM Down
+    
+    •	Con los datos de copia de seguridad de la batería
+    
+    •	Hay indicador de señal LED
+    
+    •	Tasa de baudios predeterminada: 9600
 
 Especificaciones:
 
-•	Cargador LiPo integrado TP5400 (1A)
-
-•	Indicador LED: hay 4 ledes que muestran el estado de la batería en tiempo real.
-
-•	USB
-
-•	CP2104-GMR
-
-•	Pre-Flash del Firmware
-
-•	SoftRF V4.0
-
-•	Soporte para batería 18650
-
-•	Dimensiones: 100.13 × 32.89 milímetros
+    •	Cargador LiPo integrado TP5400 (1A)
+    
+    •	Indicador LED: hay 4 ledes que muestran el estado de la batería en tiempo real.
+    
+    •	USB
+    
+    •	CP2104-GMR
+    
+    •	Pre-Flash del Firmware
+    
+    •	SoftRF V4.0
+    
+    •	Soporte para batería 18650
+    
+    •	Dimensiones: 100.13 × 32.89 milímetros
 
 Documentación:
 
-https://github.com/lyusupov/SoftRF/wiki/Prime-Edition-MkII
-
-https://github.com/LilyGO/SoftRF
+    https://github.com/lyusupov/SoftRF/wiki/Prime-Edition-MkII
+    
+    https://github.com/LilyGO/SoftRF
 
 # Arquitectura del sistema
 Definición del sistema de comunicación:
