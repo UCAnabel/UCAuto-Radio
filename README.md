@@ -3,6 +3,7 @@ El equipo UCAuto RadioTeam es el responsable del apartado de comunicaciones dent
 Para la comunicación entre el velero y el centro de control se ha determinado utilizar un sistema basado en LoRa (Long Range).
 # LoRa LilyGo
 Se trata de una placa de desarrollo que integra en un solo módulo varios componentes orientados a aplicaciones de comunicaciones e IoT. Incorpora un microcontrolador ESP32, que incluye conectividad WiFi y Bluetooth, una pantalla OLED, un receptor GPS NEO-6M y un módulo LoRa de 868 MHz.
+
 <img width="699" height="607" alt="image" src="https://github.com/user-attachments/assets/4ed13b38-43e2-4001-9ead-83269702cf69" />
 En la parte posterior dispone de un conector para baterías LiPo de 3,7 V tipo 18650, lo que la hace adecuada para proyectos portátiles.
 El ESP32 es un microcontrolador ampliamente documentado y con soporte en plataformas como Arduino, lo que facilita su programación y uso en proyectos experimentales o de investigación.
@@ -135,7 +136,6 @@ Con estos cuatro tipos de mensajes se cubren los requisitos básicos de comunica
 <img width="1004" height="1284" alt="image" src="https://github.com/user-attachments/assets/94c0492d-f846-45bc-a031-4edc6f5004c7" />
 <img width="1004" height="812" alt="image" src="https://github.com/user-attachments/assets/466a8e83-9a8f-4914-97d2-f5f6683644f4" />
 
-Campo	Descripción	Decimales	Máx. valor típico	Ejemplo de valor	Nº caracteres
 
 # Formato mensaje
 El mensaje del Nodo móvil al Nodo fijo es indispensable determinar y optimizarlo, para poder enviar todos los datos mínimos y de manera eficaz para seguir el monitoreo del Nodo móvil. Los mensajes de comando son mas cortos y no es crítico el tamaño (en principio).
