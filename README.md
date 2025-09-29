@@ -5,6 +5,7 @@ Para la comunicación entre el velero y el centro de control se ha determinado u
 Se trata de una placa de desarrollo que integra en un solo módulo varios componentes orientados a aplicaciones de comunicaciones e IoT. Incorpora un microcontrolador ESP32, que incluye conectividad WiFi y Bluetooth, una pantalla OLED, un receptor GPS NEO-6M y un módulo LoRa de 868 MHz.
 
 <img width="699" height="607" alt="image" src="https://github.com/user-attachments/assets/4ed13b38-43e2-4001-9ead-83269702cf69" />
+
 En la parte posterior dispone de un conector para baterías LiPo de 3,7 V tipo 18650, lo que la hace adecuada para proyectos portátiles.
 El ESP32 es un microcontrolador ampliamente documentado y con soporte en plataformas como Arduino, lo que facilita su programación y uso en proyectos experimentales o de investigación.
 ESP32
